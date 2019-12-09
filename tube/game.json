@@ -1,0 +1,48 @@
+{
+	"width": 640,
+	"height": 512,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"tube": {
+			"type": "text",
+			"path": "text/tube.glsl"
+		},
+		"block": {
+			"type": "image",
+			"width": 64,
+			"height": 32,
+			"path": "image/block.png"
+		},
+		"road": {
+			"type": "image",
+			"width": 64,
+			"height": 32,
+			"path": "image/road.png"
+		},
+		"gradation": {
+			"type": "image",
+			"width": 16,
+			"height": 16,
+			"path": "image/gradation.png"
+		},
+		"vehicle": {
+			"type": "image",
+			"width": 32,
+			"height": 32,
+			"path": "image/vehicle.png"
+		}
+	},
+	"renderers": [
+		"webgl"
+	],
+	"environment": {
+		"sandbox-runtime": "2"
+	},
+	"globalScripts": []
+}
