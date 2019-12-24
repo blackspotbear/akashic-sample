@@ -1,0 +1,4 @@
+node_modules
+script
+coverage
+.DS_Store
