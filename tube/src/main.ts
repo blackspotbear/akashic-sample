@@ -276,7 +276,7 @@ function main(param: g.GameMainParameterObject): void {
 
 		scene.update.add(() => {
 			// 車両を揺らして雰囲気を出す。
-			vehicle.y = kartSprOy + Math.random() * 4 - 2;
+			vehicle.y = kartSprOy + g.game.random.generate() * 4 - 2;
 			vehicle.modified();
 
 			// スクロール位置更新。
