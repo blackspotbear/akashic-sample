@@ -15,11 +15,6 @@
 			"height": 80,
 			"path": "image/gw_title.png"
 		},
-		"ShinyEffect": {
-			"type": "script",
-			"path": "script/ShinyEffect.js",
-			"global": true
-		},
 		"hw_title": {
 			"type": "image",
 			"width": 256,
